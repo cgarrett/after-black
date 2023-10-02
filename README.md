@@ -9,7 +9,7 @@ This pre-commit hook should be run after the Black formatter pre-commit hook.
 
 ```
   - repo: https://github.com/cgarrett/after-black
-    rev: v0.0.1
+    rev: v0.0.2
     hooks:
       - id: after_black
 ```
