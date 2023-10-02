@@ -1,7 +1,7 @@
--   id: after-black
+-   id: after_black
     name: Identify possible formatting issues caused by Black
     description: This hook looks for possible formatting issues caused by Black.
-    entry: after-black
+    entry: after_black
     language: python
     types: [python]
     stages: [commit, push, manual]
