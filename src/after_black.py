@@ -49,7 +49,7 @@ def main(argv: Sequence[str] | None = None) -> int:
                             pass
                         else:
                             potential_issues += 1
-                            print(f"{filename} - Line {line_no} (pos: {position}): {line.lstrip()}".rstrip())
+                            print(f"{filename} - Line {line_no+1} (pos: {position}): {line.lstrip()}".rstrip())
                             retval = 1
 
     return retval
